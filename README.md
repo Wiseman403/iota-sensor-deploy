@@ -29,3 +29,28 @@ This repo exists for one purpose: to deploy the `sensor_package` Move contract t
 - The script uses the testnet faucet at `https://api.testnet.iota.cafe`. Tokens take up to one minute to land.
 - If the binary install fails, the setup falls back to `cargo install`, which takes ~10 minutes but is more reliable.
 - The published package's owner is the address generated inside the Codespace. Save the recovery phrase if you want to reuse the same address from your local machine — but you will not need it for the dApp, which uses its own browser-side keypair.
+
+@Wiseman403 ➜ ~ $ iota client addresses
+╭─────────────────────┬────────────────────────────────────────────────────────────────────┬─────────┬────────╮
+│ alias               │ address                                                            │ source  │ active │
+├─────────────────────┼────────────────────────────────────────────────────────────────────┼─────────┼────────┤
+│ mystifying-idocrase │ 0xabcf39eb4b4d7a5faf37ad91c0402e821ea770b85993d963de9c64287848e941 │ keypair │ *      │
+╰─────────────────────┴────────────────────────────────────────────────────────────────────┴─────────┴────────╯
+
+
+@Wiseman403 ➜ ~ $ iota keytool export mystifying-idocrase
+╭────────────────────┬────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ exportedPrivateKey │  iotaprivkey1qzf3lscvv20w5509kw52f7xa9sl335dw6lvrzu43wp36keaydjz2ua3df2l                           │
+│ key                │ ╭─────────────────────────┬──────────────────────────────────────────────────────────────────────╮ │
+│                    │ │ alias                   │  mystifying-idocrase                                                 │ │
+│                    │ │ iotaAddress             │  0xabcf39eb4b4d7a5faf37ad91c0402e821ea770b85993d963de9c64287848e941  │ │
+│                    │ │ source                  │  keypair                                                             │ │
+│                    │ │ publicBase64Key         │  3kEkufVpVqWIxpA0SYRbp5GTH9pgXI2k14EYW/tB4gU=                        │ │
+│                    │ │ publicBase64KeyWithFlag │  AN5BJLn1aValiMaQNEmEW6eRkx/aYFyNpNeBGFv7QeIF                        │ │
+│                    │ │ keyScheme               │  ed25519                                                             │ │
+│                    │ │ flag                    │  0                                                                   │ │
+│                    │ │ peerId                  │  de4124b9f56956a588c6903449845ba791931fda605c8da4d781185bfb41e205    │ │
+│                    │ ╰─────────────────────────┴──────────────────────────────────────────────────────────────────────╯ │
+╰────────────────────┴────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+# cup business save angle able rookie goddess surround rabbit powder eternal upgrade
