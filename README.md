@@ -53,4 +53,4 @@ This repo exists for one purpose: to deploy the `sensor_package` Move contract t
 │                    │ ╰─────────────────────────┴──────────────────────────────────────────────────────────────────────╯ │
 ╰────────────────────┴────────────────────────────────────────────────────────────────────────────────────────────────────╯
 
-# cup business save angle able rookie goddess surround rabbit powder eternal upgrade
+
